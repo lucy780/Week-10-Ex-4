@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main ()
+{
+int numberofdice = 0;
+int facesondice = 0;
+int result = numberofdice*facesondice;
+char c;
+int q = 0;
+
+while(q=0){
+//
+printf("%i", "How many dice are there?: ");
+scanf("%i", &numberofdice);
+printf ("%i", numberofdice);
+
+printf("%i", "How many faces on a di?: ");
+scanf("%i", &facesondice);
+printf("%i", facesondice);
+
+printf("%i", result);
+
+printf("do you wish to continue, y/n?: ");
+scanf("%c", "?&c");
+
+    printf ("Do you want to continue? y/n");
+ scanf ("%c", "?&c");
+    if (c=='n')
+    q=1;
+}
+    return 0;
+}
+
+
